@@ -1,0 +1,1 @@
+// for documentation refer tc39.es(ecma)
