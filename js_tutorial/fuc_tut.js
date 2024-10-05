@@ -1,11 +1,13 @@
-// function printvalues(){
-    
-    
-// }
-// console.log(printvalues)
-var a = 1
-const b = a
-let c =4
-console.log(a)
-console.log(b)
-console.log(c)
+ // Global scope
+
+function printvalues(){ 
+    // No redeclaration of 'b' here.
+    var a = 1;
+    const b = ""
+    let c = 4;
+    return{a,b,c}; // Using the global 'b'
+}
+
+console.log(typeof printvalues())
+console.log(printvalues())
+
