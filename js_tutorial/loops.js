@@ -14,4 +14,14 @@ for (let i = 1; i < 11; i++) {
         
     }
     console.log("\n")
+
 }
+// while (condition) {
+    
+// }
+// do (condition){
+
+//     while (condition) {
+        
+//     }
+// }
