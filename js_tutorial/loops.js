@@ -10,10 +10,10 @@ for (let i = 1; i < 11; i++) {
     for (let j = 1; j < 11; j++) {
         // const element = array[j];
         // console.log(j)
-        console.log(i+'x'+ j + '='+ i*j)
+        // console.log(i+'x'+ j + '='+ i*j)
         
     }
-    console.log("\n")
+    // console.log("\n")
 
 }
 // while (condition) {
@@ -25,3 +25,6 @@ for (let i = 1; i < 11; i++) {
         
 //     }
 // }
+const mynums =[1,2,3,88,66,5,45,78,65,555]
+const myindex = mynums.map((nums, index) =>{ return `Index: ${index+1}, Value: ${nums+2}`});
+console.log(myindex)
